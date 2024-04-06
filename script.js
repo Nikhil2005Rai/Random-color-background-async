@@ -20,6 +20,7 @@ startChangingColor = function(){
 
 stopChangingColor = function(){
     clearInterval(interValid)
+    interValid = null
 }
 
 const startInterval = document.querySelector("#start")
